@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>License Registration Form</title>
+  </head>
+  <body>
+    <h2 align="center">License Registration Form</h2>
+    <form action="main.java" method="post">
+      <table style="width: 600; height: 400px" align="center">
+        <tr>
+          <td><label for="name">Full Name:</label></td>
+          <td><input type="text" id="name" name="name" required /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" name="email" required /></td>
+        </tr>
+        <tr>
+          <td><label for="dob">Date of Birth:</label></td>
+          <td><input type="date" id="dob" name="dob" required /></td>
+        </tr>
+        <tr>
+          <td><label for="age">Age: </label></td>
+          <td>
+            <input
+              type="number"
+              name="age"
+              id="age"
+              min="18"
+              max="60"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address">Address: </label></td>
+          <td><textarea name="address" id="address" cols="21" rows="4"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="llr">LLR No.: </label></td>
+          <td><input type="number" name="llr" id="llr" required /></td>
+        </tr>
+        <tr>
+          <td><label for="mno">Mobile No.: </label></td>
+          <td><input type="number" name="mno" id="mno" required /></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <input type="radio" name="gender" id="gender" value="male" />
+            <label for="gender">Male </label> &nbsp;
+            <input type="radio" name="gender" id="gender1" value="female" />
+            <label for="gender1">Female </label> &nbsp;
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="radio" name="gender" id="gender2" value="other" />
+            <label for="gender2"> Others </label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="vehicle">Select Vehicle: </label></td>
+          <td>
+            <select name="vehicle" id="vehicle" required>
+              <option value="">Choose Vehicle Type</option>
+              <optgroup label="Wheel Wise">
+                <option value="two">Two Wheeler</option>
+                <option value="three">Three Wheeler</option>
+                <option value="four">Four Wheeler</option>
+              </optgroup>
+              <optgroup label="Gear or Non-Gear">
+                <option value="gear">Gear</option>
+                <option value="ng">Without Gear</option>
+              </optgroup>
+              <optgroup label="Special Category">
+                <option value="hv">All Heavy-Duty Vehicles</option>
+                <option value="train">Train</option>
+                <option value="hp">Attack Helicopter</option>
+              </optgroup>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><button>Submit</button></td>
+        </tr>
+        <tr>
+          <td><input type="reset" value="Reset the Form" /></td>
+        </tr>
+      </table>
+      <input type="hidden" name="class" value="java31" />
+      <br />
+    </form>
+  </body>
+</html>
