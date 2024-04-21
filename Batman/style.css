@@ -1,0 +1,84 @@
+.intro{
+    background: url("./batman1.jpg");
+    height: 75vh;
+    width: 97.5vw;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.quote{
+    font-style: oblique;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+ol{
+    font-style: oblique;
+}
+
+.table{
+    width: 97.5vw;
+}
+
+.rowbatman{
+    background:url(./batman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 30vw;
+}
+
+.rowbatman:hover{
+    background:url(./long_batman.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 30vw;
+}
+
+.ofvideo{
+    height: 70vh;
+    width: 70vw;
+    margin-left: 48.75vw;
+    transform: translate(-50%);
+}
+
+.hdbatman{
+    width: 97.5vw;
+    height: 70vh;
+    background:url(./batmanhd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.gd1{
+    width: 48.25vw;
+    height: 50vh;
+}
+
+.signal{
+    background: url("./batsignal.PNG");
+    height: 75vh;
+    width: 97.5vw;
+    background-position: center;
+    background-size: cover;
+}
