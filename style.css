@@ -1,0 +1,8 @@
+body{
+    background: radial-gradient(rgb(160, 211, 214), rgb(228, 204, 177), rgb(160, 211, 214), rgb(228, 204, 177), rgb(160, 211, 214));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+}
