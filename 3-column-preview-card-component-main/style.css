@@ -1,0 +1,85 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.main {
+  height: 380px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+button {
+  height: 40px;
+  width: 110px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-top: 15px;
+  height: 30px;
+  width: 45px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.btn1 {
+  border-color: hsl(31, 77%, 52%);
+  font-size: 12px;
+  color: hsl(31, 77%, 52%);
+}
+
+.btn2 {
+  border-color: hsl(184, 100%, 22%);
+  font-size: 12px;
+  color: hsl(184, 100%, 22%);
+}
+
+.btn3 {
+  border-color: hsl(179, 100%, 13%);
+  font-size: 12px;
+  color: hsl(179, 100%, 13%);
+}
