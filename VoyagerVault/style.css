@@ -1,0 +1,571 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading {
+  height: 8vh;
+  width: 98vw;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+.quote2 {
+  height: 20vh;
+  width: 97.6vw;
+  font-size: 35px;
+  font-style: oblique;
+  font-variant: small-caps;
+  text-align: center;
+  font-weight: 700;
+}
+
+.topic {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 45px;
+  margin-right: 10px;
+}
+
+.menu {
+  width: 42%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.btn1 {
+  height: 6vh;
+  width: 5.5vw;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+}
+
+.wallpaper {
+  background: url("./images/s0H9E3Z-nature-backgrounds-hd.jpg");
+  height: 80vh;
+  width: 97.6vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  height: 8vh;
+  width: 28vw;
+  border-radius: 45px;
+  border: 2px solid lightblue;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.btn2 {
+  height: 8vh;
+  width: 7vw;
+  margin-left: 5px;
+  border-radius: 30px;
+  background-color: rgba(0, 128, 49, 0.993);
+  color: white;
+  border: 2px solid lightblue;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.quote {
+  margin-top: -25px;
+  font-size: 40px;
+  color: white;
+  background: rgba(76, 175, 80, 0.6);
+}
+
+.pos2 {
+  margin-top: -16px;
+  width: 97.6vw;
+}
+
+.h-categories {
+  margin-left: 10px;
+  margin-top: 20px;
+  padding-top: 15px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.options {
+  height: 75vh;
+  width: 97.6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.op1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.imga {
+  background: url("./images/Road\ To\ Mountains\ Hd\ Wallpaper\ -\ [1080x1920].jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 27vw;
+  border-radius: 20px;
+}
+
+.imga:hover {
+  background: url("./images/Road\ To\ Mountains\ Hd\ Wallpaper\ -\ [1080x1920].jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 67vh;
+  width: 32vw;
+  border-radius: 20px;
+}
+
+.op2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgb {
+  background: url("./images/beach.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 27vw;
+  border-radius: 20px;
+}
+
+.imgb:hover {
+  background: url("./images/beach.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 67vh;
+  width: 32vw;
+  border-radius: 20px;
+}
+
+.op3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.imgc {
+  background: url("./images/Basantapur\ -\ Kathmandu\ Nepal.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 27vw;
+  border-radius: 20px;
+}
+
+.imgc:hover {
+  background: url("./images/Basantapur\ -\ Kathmandu\ Nepal.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 67vh;
+  width: 32vw;
+  border-radius: 20px;
+}
+
+/* Here starts the season section. */
+
+.pos3 {
+  margin-top: -16px;
+  width: 97.6vw;
+}
+
+.s-categories {
+  margin-left: 10px;
+  margin-top: 20px;
+  padding-top: 15px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.s-options {
+  height: 75vh;
+  width: 97.6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s-op1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.s-imga {
+  background: url("./images/summer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 21vw;
+  border-radius: 20px;
+}
+
+.s-imga:hover {
+  background: url("./images/summer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  width: 24vw;
+  border-radius: 20px;
+}
+
+.s-op2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-imgb {
+  background: url("./images/rainy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 21vw;
+  border-radius: 20px;
+}
+
+.s-imgb:hover {
+  background: url("./images/rainy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  width: 24vw;
+  border-radius: 20px;
+}
+
+.s-op3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-imgc {
+  background: url("./images/winter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 21vw;
+  border-radius: 20px;
+}
+
+.s-imgc:hover {
+  background: url("./images/winter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  width: 24vw;
+  border-radius: 20px;
+}
+
+.s-op4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.s-imgd {
+  background: url("./images/spring.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 21vw;
+  border-radius: 20px;
+}
+
+.s-imgd:hover {
+  background: url("./images/spring.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  width: 24vw;
+  border-radius: 20px;
+}
+
+.pos4 {
+  margin-top: -16px;
+  width: 97.6vw;
+}
+
+/* featued section */
+
+.featured {
+  display: flex;
+}
+
+.f-image {
+  background: url("./images/pyramid.jpg");
+  height: 80vh;
+  width: 65vw;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.f-image:hover {
+  background: url("./images/Lost\ Civilizations\ Collection.jpeg");
+  height: 80vh;
+  width: 65vw;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.info {
+  height: 80vh;
+  width: 30vw;
+  margin-left: 12px;
+}
+
+.ftr {
+  margin: 15px;
+}
+
+.f-info {
+  margin: 15px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-map {
+  height: 30vh;
+  width: 16vw;
+}
+
+/* Destination */
+
+.pos5 {
+  margin-top: -16px;
+  width: 97.6vw;
+}
+
+.destination {
+  margin-left: 10px;
+  margin-top: 40px;
+  padding-top: 15px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.d-options {
+  height: 75vh;
+  width: 97.6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d-op1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.d-imga {
+  background: url("./images/asia.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 21vw;
+  border-radius: 20px;
+}
+
+.d-imga:hover {
+  background: url("./images/asia.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  width: 24vw;
+  border-radius: 20px;
+}
+
+.d-op2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-imgb {
+  background: url("./images/europe.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 21vw;
+  border-radius: 20px;
+}
+
+.d-imgb:hover {
+  background: url("./images/europe.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  width: 24vw;
+  border-radius: 20px;
+}
+
+.d-op3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-imgc {
+  background: url("./images/africa.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 21vw;
+  border-radius: 20px;
+}
+
+.d-imgc:hover {
+  background: url("./images/africa.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  width: 24vw;
+  border-radius: 20px;
+}
+
+.d-op4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.d-imgd {
+  background: url("./images/australia\ \(2\).jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 21vw;
+  border-radius: 20px;
+}
+
+.d-imgd:hover {
+  background: url("./images/australia\ \(2\).jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  width: 24vw;
+  border-radius: 20px;
+}
+
+.list {
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.list2 {
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.p-footer {
+  height: 40vh;
+  width: 97.6vw;
+  background-color: black;
+  color: white;
+}
+
+.f-head {
+  font-size: larger;
+  width: 70vw;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.attractions {
+  margin-left: 10px;
+}
+
+.cities {
+  margin-left: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  height: 30vh;
+  padding-left: 20px;
+  padding-top: 10px;
+}
