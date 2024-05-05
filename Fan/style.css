@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(210, 241, 153);
+}
+
+h1 {
+  margin-top: 350px;
+  margin-left: -100px;
+}
+
+.main {
+  margin: 30px;
+  height: 550px;
+  width: 304px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: skyblue;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid black;
+  box-shadow: 0px 5px 5px 5px;
+}
+
+.fan {
+  background: url("./pngegg2.png");
+  height: 280px;
+  width: 280px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: contain;
+}
+
+.fan:hover {
+  background: url("./pngegg2.png");
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 280px;
+  width: 280px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: spin 0.5s infinite linear;
+}
+
+.stand {
+  height: 180px;
+  width: 50px;
+  background-color: brown;
+  border-bottom: 5px solid brown;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  box-shadow: 0px 5px 5px 5px;
+}
+
+.base {
+  height: 70px;
+  width: 304px;
+  background-color: brown;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  border: 6px solid black;
+  box-shadow: 0px 6px 6px 6px;
+}
+
+.btnsc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns {
+  height: 25px;
+  width: 15px;
+  background-color: rgb(191, 231, 46);
+  margin: 15px;
+  border: 2px solid black;
+  box-shadow: 0px 4px 4px 0px;
+  border-radius: 40%;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
