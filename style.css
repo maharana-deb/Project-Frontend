@@ -6,3 +6,12 @@ body{
     align-items: center;
     font-size: x-large;
 }
+
+ol{
+    padding-top: 20px;
+    height: 98vh;
+    width: 35vw;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px;
+}
