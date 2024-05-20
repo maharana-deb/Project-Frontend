@@ -1,17 +1,21 @@
 body{
     background: radial-gradient(rgb(160, 211, 214), rgb(228, 204, 177), rgb(160, 211, 214), rgb(228, 204, 177), rgb(160, 211, 214));
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: x-large;
 }
 
+h1{
+    color: rgb(22, 7, 105);
+}
+
 ol{
     padding-top: 20px;
-    height: 98vh;
     width: 35vw;
     background-color: white;
     border: 2px solid black;
     box-shadow: 10px 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
 }
