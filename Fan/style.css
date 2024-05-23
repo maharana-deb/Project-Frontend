@@ -1,7 +1,8 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: rgb(210, 241, 153);
+  background-color: rgb(241, 214, 162);
+  font-family: sans-serif;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
 
 .main {
   margin: 30px;
-  height: 550px;
+  height: 540px;
   width: 304px;
   display: flex;
   flex-direction: column;
@@ -40,17 +41,6 @@ h1 {
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: contain;
-}
-
-.fan:hover {
-  background: url("./pngegg2.png");
-  margin-top: 5px;
-  margin-left: 5px;
-  height: 280px;
-  width: 280px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  animation: spin 0.5s infinite linear;
 }
 
 .stand {
@@ -82,14 +72,67 @@ h1 {
   align-items: center;
 }
 
-.btns {
-  height: 25px;
-  width: 15px;
-  background-color: rgb(191, 231, 46);
+#btn1 {
+  height: 28px;
+  width: 18px;
+  background-color: rgb(98, 231, 46);
   margin: 15px;
-  border: 2px solid black;
-  box-shadow: 0px 4px 4px 0px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  box-shadow: 0px 0px 2px 2px;
   border-radius: 40%;
+}
+
+#btn2 {
+  height: 28px;
+  width: 18px;
+  background-color: rgb(98, 231, 46);
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  box-shadow: 0px 0px 2px 2px;
+  border-radius: 40%;
+}
+
+#btn3 {
+  height: 28px;
+  width: 18px;
+  background-color: rgb(98, 231, 46);
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  box-shadow: 0px 0px 2px 2px;
+  border-radius: 40%;
+}
+
+#btn4 {
+  height: 28px;
+  width: 18px;
+  background-color: rgb(98, 231, 46);
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  box-shadow: 0px 0px 2px 2px;
+  border-radius: 40%;
+}
+
+#btn5 {
+  height: 17px;
+  width: 17px;
+  background-color: darkred;
+  border-color: white;
+  align-items: center;
+  box-shadow: 0px 0px 3px 3px;
+  border-radius: 50%;
+  margin-left: 10px;
 }
 
 @keyframes spin {
