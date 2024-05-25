@@ -1,7 +1,10 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: rgb(241, 214, 162);
+  background: url('./summer\ bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: sans-serif;
 }
 

@@ -1,4 +1,4 @@
-let fan = document.querySelector('.fan');
+let fan = document.querySelector(".fan");
 let isSpinning = false;
 let speed = 0;
 
@@ -19,20 +19,12 @@ function rotate4() {
 }
 
 function setFanSpeed(level) {
-  if (isSpinning) {
-    fan.style.animationDuration = `${5 / level}s`;
-  } else {
-    fan.style.animation = `spin ${5 / level}s linear infinite`;
-    isSpinning = true;
-  }
-  speed = level;
+  fan.style.animation = `spin ${5 / level}s linear infinite`;
+  isSpinning = true;
 }
 
-document.getElementById('btn5').addEventListener('click', () => {
+document.getElementById("btn5").addEventListener("click", () => {
   if (isSpinning) {
-    fan.style.animation = '';
-    isSpinning = false;
-  } else {
-    setFanSpeed(speed);
+    fan.style.animation = "";
   }
 });
