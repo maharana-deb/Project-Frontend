@@ -38,6 +38,18 @@ header {
   border: 3px solid #13ee6e;
   border-radius: 10px;
 }
+
+.prod:hover {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 5px black;
+  border: 3px solid #fc9a07;
+  border-radius: 10px;
+}
+
 /* fc9a07 */
 /* 077dfc */
 /* rgb(16, 32, 107) */
