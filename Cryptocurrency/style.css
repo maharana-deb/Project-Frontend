@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -85,4 +86,8 @@ button:hover {
 
 .crypto-detail {
     margin: 10px 0;
+}
+
+.msg{
+    background-color: black;
 }
