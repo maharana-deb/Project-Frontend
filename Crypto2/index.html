@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Portfolio Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cryptocurrency Portfolio Tracker</h1>
+        <div class="search-bar">
+			<input type="text" id="search" placeholder="Search cryptocurrencies...">
+            <button onclick="searchCrypto()">Search</button>
+			</div>
+			<h4>Currently in development. More features to be added.</h4>
+			<table id="crypto-table">
+            <thead>
+                <tr>
+					<th>Index</th>
+                    <th>Logo</th>
+                    <th>Name</th>
+                    <th>Symbol</th>
+                    <th>Price</th>
+                    <th>Price Change</th>
+                    <th>24h Volume</th>
+                </tr>
+            </thead>
+            <tbody id="crypto-tbody">
+                <!-- cryptos will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
