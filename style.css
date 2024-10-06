@@ -27,14 +27,14 @@ body::before {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    opacity: 0.5; 
+    opacity: 0.2; 
     z-index: -1;
 }
 
 h2{
     color: white;
     background-color: black;
-    width: 15vw;
+    width: 23vw;
     height: 6vh;
     display: flex;
     justify-content: center;
@@ -48,8 +48,8 @@ h2{
 h2:hover{
     color: white;
     background-color: black;
-    width: 15vw;
-    height: 6vh;
+    width: 24vw;
+    height: 6.5vh;
     border-radius: 5px;
     padding: 10px;
     border: 2px solid white;
@@ -58,26 +58,26 @@ h2:hover{
 
 ul{
     padding-top: 20px;
-    width: 29vw;
+    width: 28vw;
     color: white;
     background-color: black;
     border: 2px solid white;
     box-shadow: 0px 0px 15px 15px black;
     border-radius: 10px;
     padding-bottom: 20px;
-    padding-left: 40px;
+    padding-left: 45px;
     line-height: 25px;
 }
 
 ul:hover{
     padding-top: 20px;
-    width: 29vw;
+    width: 28.5vw;
     color: white;
     background-color: black;
     border: 2px solid white;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 255, 0.651);
     border-radius: 10px;
     padding-bottom: 20px;
-    padding-left: 40px;
+    padding-left: 45px;
     line-height: 25px;
 }
