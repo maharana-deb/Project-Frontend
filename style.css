@@ -31,11 +31,11 @@ body::before {
     z-index: -1;
 }
 
-h2{
+h3{
     color: white;
     background-color: black;
-    width: 23vw;
-    height: 6vh;
+    width: 20vw;
+    height: 5.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,11 +45,11 @@ h2{
     box-shadow: 0px 0px 15px 15px black;
 }
 
-h2:hover{
+h3:hover{
     color: white;
     background-color: black;
-    width: 24vw;
-    height: 6.5vh;
+    width: 21vw;
+    height: 6.3vh;
     border-radius: 5px;
     padding: 10px;
     border: 2px solid white;
