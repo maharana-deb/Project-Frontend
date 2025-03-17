@@ -1,9 +1,13 @@
-const apiUrl = 'https://api.coingecko.com/api/v3/coins/markets';
-const params = 'vs_currency=usd&order=market_cap_desc&per_page=200&page=1&sparkline=false';
+// curl \
+//  -X GET https://openapi.niftypm.com/api/v1.0/apps?limit=25&offset=0 \
+//  -H "Authorization: Bearer $ACCESS_TOKEN"
+
+const apiUrl = 'https://openapi.niftypm.com/api/v1.0/apps?limit=25&offset=0';
+// const params = 'limit=25&offset=0';
 
 async function fetchCryptocurrencies() {
     try {
-        const response = await fetch(`${apiUrl}?${params}`);
+        const response = await fetch(`${apiUrl}`);
         const data = await response.json();
         displayCryptocurrencies(data);
     } catch (error) {
@@ -23,13 +27,8 @@ function displayCryptocurrencies(cryptos) {
 
         row.innerHTML = `
             <td>${index + 1}</td>
-            <td><img src="${crypto.image}" alt="${crypto.name} logo" class="logo"></td>
-            <td>${crypto.symbol.toUpperCase()}</td>
             <td>${crypto.name}</td>
-            <td>$${crypto.current_price.toFixed(2)}</td>
-            <td style="color:${priceChangeColor}">${priceChange.toFixed(2)}%</td>
-            <td>$${crypto.total_volume.toLocaleString()}</td>
-            <td>$${crypto.market_cap.toFixed(2)}</td>
+            
         `;
 
         tbody.appendChild(row);
